@@ -3,8 +3,11 @@
 ## Authors of the game:
 
 Mikołaj Płatek https://github.com/nezquick123 https://www.linkedin.com/in/miko%C5%82aj-p%C5%82atek-34663523b/
+
 Szymon Skowroński https://github.com/Sazer54 https://www.linkedin.com/in/szymon-skowro%C5%84ski-704baa26a/
+
 Jakub Brambor https://github.com/august3sas https://www.linkedin.com/in/jakub-brambor-66a7b8295/
+
 Zuzanna Ławniczak https://github.com/Deptage https://www.linkedin.com/in/zuzanna-lawniczak/
 
 
