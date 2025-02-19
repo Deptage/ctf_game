@@ -14,11 +14,13 @@
 
 Before running the project, make sure you have the following requirements met:
 
-1. **Add Domains to `/etc/hosts`**  
+1. **Make sure you have Docker and docker-compose installed**
+
+2. **Add Domains to `/etc/hosts`**  
    Edit your `/etc/hosts` file to include the necessary domain mappings present in the hosts file from this repository.
     
 
-2. **Install and Ensure `caddy` is in `PATH`**  
+3. **Install and Ensure `caddy` is in `PATH`**  
    Caddy is required to run this project. Download and install it from the official source:
    [Caddy Installation Guide](https://caddyserver.com/docs/install)
 
