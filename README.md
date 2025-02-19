@@ -1,7 +1,5 @@
 # CTFGame
 
-## Authors of the game:
-
 ## Authors of the Game
 
 | Name               | GitHub Profile                          | LinkedIn Profile                                                                 |
