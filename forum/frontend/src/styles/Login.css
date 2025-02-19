@@ -1,0 +1,89 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(117, 212, 56);
+    padding: 20px;
+}
+
+
+.login-field {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(117, 212, 56, 0.3);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(117, 212, 56);
+}
+
+.login-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(117, 212, 56);
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgb(117, 212, 56);
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    background-color: black;
+    border: 1px solid rgb(117, 212, 56);
+    color: rgb(117, 212, 56);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
+    width: stretch;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(117, 212, 56, 0.7);
+}
+
+
+.login-submit {
+    background-color: black;
+    color: rgb(117, 212, 56);
+    padding: 15px;
+    border: 1px solid rgb(117, 212, 56);
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-submit:hover {
+    background-color: rgb(117, 212, 56);
+    color: black;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-data-alert {
+    color:red;
+    margin:5px;
+}

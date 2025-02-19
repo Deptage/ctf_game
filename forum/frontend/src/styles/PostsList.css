@@ -1,0 +1,21 @@
+.no-posts-avail {
+    text-align: center;
+    margin: 40px;
+}
+
+body {
+    background-color: black;
+    color: rgb(117, 212, 56);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(117, 212, 56);
+    font-size: large;
+}

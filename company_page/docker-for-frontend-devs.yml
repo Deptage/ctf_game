@@ -1,0 +1,37 @@
+version: '3.8'
+networks:
+  company-network:
+    driver: bridge
+    ipam:
+      config: []
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: inthehistoryofforevertherehasneverbeenamorecomplexpostgresqlpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - company-network
+
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - company-network
+
+
+
+    
+volumes:
+  pgdata:
+  

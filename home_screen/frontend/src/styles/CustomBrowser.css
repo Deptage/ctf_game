@@ -1,0 +1,123 @@
+.browser-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .browser-header {
+    padding: 5px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #00FF00;
+    height: min-content;
+  }
+  
+  .browser-header h2 {
+    color: rgb(191, 250, 115);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    flex-grow: 1;
+  }
+  
+
+  .search-bar {
+    flex: 1;
+    padding: 8px;
+    margin-right: 15px;
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #666;
+  }
+  
+  .nav-area {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .bookmark-text {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: rgb(191, 250, 115);
+  }
+  
+  .nav-icons-container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-icon:hover {
+    background-color: #444;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .component-container {
+    text-align: center;
+  }
+  
+  .button-group {
+    margin: 20px 0;
+  }
+  
+  .button.yes {
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .button.no {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+  }
+  

@@ -1,0 +1,30 @@
+version: '3.8'
+networks:
+  bank-network:
+    driver: bridge
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: inthehistoryofforevertherehasneverbeenamorecomplexpostgresqlpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - bank-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - bank-network
+
+volumes:
+  pgdata:

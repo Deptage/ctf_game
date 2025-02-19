@@ -1,0 +1,101 @@
+/* Banner container styling */
+.banner {
+    width: 400px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 50, 0, 0.8));
+    border-radius: 12px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(142, 207, 98);
+    border: 2px solid #00FF00;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    z-index: 200000;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Link styling */
+.banner-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(142, 207, 98, 0.2);
+    border: 2px solid #8ECF62;
+    border-radius: 8px;
+    color: #8ECF62;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner-link a:hover {
+    background-color: #8ECF62;
+    color: black;
+}
+
+/* Time left styling */
+.banner-time-left {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #8ECF62;
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+    background-color: rgba(0, 50, 0, 0.8);
+    color: #8ECF62;
+}
+
+/* .banner-button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #ff4c4c;
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+} */
+
+.banner-button-reset {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #4CAF50;
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 20px;
+}
+
+.banner-button-reset:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(72, 239, 72, 0.6);
+}
+
+.banner-button-stop {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #ff4c4c;
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-button-stop:hover {
+    background-color: #ff3333;
+    border-color: #ff3333;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}

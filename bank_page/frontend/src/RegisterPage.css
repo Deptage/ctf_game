@@ -1,0 +1,134 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.registerContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.wruc {
+    color: lightgray;
+    margin-left: 15px;
+    cursor: pointer;
+    max-width: 15%;
+}
+
+.panels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(66, 83, 132, 0.6 );
+    margin-right: 10px;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 112, 210, 0.6);
+    margin: auto;
+    max-width:50%;
+    padding: 15px;
+    border-radius: 25px;
+}
+.reg-form h1,
+.reg-form input,
+.reg-form button {
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 14px;
+}
+.reg-form h1{
+    font-size: 32px !important;
+}
+.register-button {
+    padding: 10px;
+    background-color: #5636c04b;
+    border: 1px solid rgba(0, 0, 255, 0.267);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.other-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    background-color: rgb(175, 175, 210, 0.6);
+    border-radius:25px;
+}
+
+.img-container {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.img-container img {
+    
+    border-radius:25px;
+    width: 66%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-overlay {
+    width: 66%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-right:10px;
+    text-align: right;
+    font-size: 54px;
+    text-shadow: 
+        2px 2px 0 rgba(65, 45, 194, 0.4);
+}
+.errorMessage{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.errorInput{
+    border-color: red;
+}
+.error{
+    color:red;
+}
+.successReturn{
+    cursor:pointer;
+}
+.clickable-reg{
+    text-shadow: #fff 1px 0 2px;
+    transition: text-shadow 0.3s ease;
+}
+.clickable-reg:hover{
+    cursor:pointer;
+    text-shadow: #e1ddd0 1px 0 20px;
+}
+
+.register-text{
+    text-shadow: #fff 1px 0 2px;
+    transition: text-shadow 0.3s ease;
+}
+.register-text:hover{
+    text-shadow: #fff 1px 0 15px;
+}

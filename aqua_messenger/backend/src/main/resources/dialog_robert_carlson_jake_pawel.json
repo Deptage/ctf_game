@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "sender": "Robert Carlson",
+    "txt": "Hi Jake. What about the server? Are you setting it up?",
+    "sent": true,
+    "next": [
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "sender": "Jake Pawel",
+    "txt": "hiiiii I'm working on it stilll it's hardd",
+    "sent": true,
+    "next": [
+      3
+    ]
+  },
+  {
+    "id": 3,
+    "sender": "Robert Carlson",
+    "txt": "People are getting suspicious. We're losing money because of you",
+    "sent": true,
+    "next": [
+      4
+    ]
+  },
+  {
+    "id": 4,
+    "sender": "Jake Pawel",
+    "txt": "chill it's almost done. You can curl devserver.jake.local if u want to see i'm making progress",
+    "sent": true,
+    "next": [
+      5
+    ]
+  },
+  {
+    "id": 5,
+    "sender": "Robert Carlson",
+    "txt": "nice. Can u come here, I want to show you sth",
+    "sent": true,
+    "next": [
+      6
+    ]
+  },
+  {
+    "id": 6,
+    "sender": "Robert Carlson",
+    "txt": "I made a stupid backstory to extract even more money from naive people hah",
+    "sent": true,
+    "next": [
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "sender": "Jake Pawel",
+    "txt": "sounds cool. But I want to finish setting up the server first, if you allow me to",
+    "sent": true,
+    "next": [
+      8
+    ]
+  },
+  {
+    "id": 8,
+    "sender": "Robert Carlson",
+    "txt": "fine >:(\n\n\nTGHM{sc4mm3rs_g3t_sc4mm3d}",
+    "sent": true,
+    "next": [
+
+    ]
+  }
+]

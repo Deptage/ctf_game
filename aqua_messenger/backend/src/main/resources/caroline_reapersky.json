@@ -1,0 +1,403 @@
+[
+    {
+        "id": 1,
+        "sender": "user",
+        "txt": "Hi Caroline! I saw your profile on LinkedIn and I saw that you are working in a cybersecurity company! How was the job? And how hard was it to get it?",
+        "sent": true,
+        "next": [
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "sender": "bot",
+        "txt": "Hiiii Antiqua, I forgot to update my profile, I'm sorry. I don't work in CyberSec4Us anymore.",
+        "sent": true,
+        "next": [
+            3,4
+        ]
+    },
+    {
+        "id": 3,
+        "sender": "user",
+        "txt": "Oh, that's a pity. Are you the victim of the recent layoff wave?",
+        "next": [
+            5
+        ]
+    },
+    {
+        "id": 4,
+        "sender": "user",
+        "txt": "Oh, that's a pity. But can you tell me something more about the job? How was it? How was the recruitment process?",
+        "next": [
+            8
+        ]
+    },
+    {
+        "id": 5,
+        "sender": "bot",
+        "txt": "Eh, the info did spread, didn't it... Indeed, Segfaultland's special forces raided our company.",
+        "next": [
+            6,7
+        ]
+    },
+    {
+        "id": 6,
+        "sender": "user",
+        "txt": "Whaaaat? How could that happen? What about workers' rights?",
+        "next": [
+            9
+        ]
+    },{
+        "id": 7,
+        "sender": "user",
+        "txt": "What? The news only told about the layoff wave... Suspicious. Anyways, why the special forces had to intervene?",
+        "next": [
+            12
+        ]
+    },{
+        "id": 8,
+        "sender": "bot",
+        "txt": "It was stressful, because Webvestee was actively trying to disrupt our greatest efforts. They have a LOT of hackers in there. I didn't even know that they train so many computer scientists :/",
+        "next": [
+            10,11
+        ]
+    },{
+        "id": 9,
+        "sender": "bot",
+        "txt": "They gave us a large check each and told us to leave the company and never come back. I barely know what happened. I heard a few gossips, and they are not favorable...",
+        "next": [
+            17,19
+        ]
+    },{
+        "id": 10,
+        "sender": "user",
+        "txt": "Well I am soon to join the workforce and I consider being a cybersecurity specialist. That's why I texted you, didn't I? What were you doing there on a daily basis?",
+        "next": [
+            18
+        ]
+    },{
+        "id": 11,
+        "sender": "user",
+        "txt": "And the recruitment? What did you have to know?",
+        "next": [
+            21
+        ]
+    },{
+        "id": 12,
+        "sender": "bot",
+        "txt": "Oh, the news only said something about the layoff wave, but didn't say anything about the special forces? Oh no. I'm afraid we have to stop this convo",
+        "next": [
+            13,14
+        ]
+    },{
+        "id": 13,
+        "sender": "user",
+        "txt": "Can't you just share a little?",
+        "next": [
+            15
+        ]
+    },{
+        "id": 14,
+        "sender": "user",
+        "txt": "Well, possibly the government doesn't want us to know. But let's get back to the topic. How hard was the job to get?",
+        "next": [
+            24
+        ]
+    },{
+        "id": 15,
+        "sender": "bot",
+        "txt": "Sorry, but the special forces really scared me. I've signed an NDA, I can't say anything.",
+        "next": [
+            16
+        ]
+    },{
+        "id": 16,
+        "sender": "user",
+        "txt": "Okay, okay. But you can share what were your daily tasks in your job? I am truly curious.",
+        "next": [
+            18
+        ]
+    },{
+        "id": 17,
+        "sender": "user",
+        "txt": "What gossips? Can you just share a little?",
+        "next": [
+            23
+        ]
+    },{
+        "id": 18,
+        "sender": "bot",
+        "txt": "I was a part of the so called 'Blue Team'. We were securing several companies against attacks. The worst part were the night shifts in the beginning :/",
+        "next": [
+            20,37
+        ]
+    },{
+        "id": 19,
+        "sender": "user",
+        "txt": "That's a shame. At least they didn't leave you empty-handed. But let's get back to the topic. How hard was the job to get?",
+        "next": [
+            24
+        ]
+    },{
+        "id": 20,
+        "sender": "user",
+        "txt": "But you got used to it, didn't you? What attacks did you face?",
+        "next": [
+            29
+        ]
+    },{
+        "id": 21,
+        "sender": "bot",
+        "txt": "I had to know really basic things, for example what is a computer virus, what is unpacking, what tools does a cybersecurity analyst use.. All of it is extremely interesting and easy to learn.",
+        "next": [
+            22,28
+        ]
+    },{
+        "id": 22,
+        "sender": "user",
+        "txt": "And they didn't ask you about any of the exploits or potential attacks that you may face?",
+        "next": [
+            51
+        ]
+    },{
+        "id": 23,
+        "sender": "bot",
+        "txt": "What I heard is... Shocking. Our company POSSIBLY was conspiring against the gov and working with the worst hackers from Reverseland. I have heard it from an unsure source, so it may not be true. If it is, then... I'm really ashamed of my company",
+        "next": [
+            25,27
+        ]
+    },{
+        "id": 24,
+        "sender": "bot",
+        "txt": "Well I was interested in cybersecurity for a long time and I competed in various ctfs. You should give it a try. But still, it was hard. But doable.",
+        "next": [
+            30,32
+        ]
+    },{
+        "id": 25,
+        "sender": "user",
+        "txt": "That's... awful. Truly awful. Well I hope it doesn't affect your future recruitment in any way... Do you have any suspects?",
+        "next": [
+            26
+        ]
+    },{
+        "id": 26,
+        "sender": "bot",
+        "txt": "Thx... I don't. It was a huge company. Let's stop talking about this, please",
+        "next": [
+            35,36
+        ]
+    },{
+        "id": 27,
+        "sender": "user",
+        "txt": "I hope the possibility is low and you will not be affected or discouraged by any of this. Who could on earth do that? Do you have the slightest idea?",
+        "next": [
+            31
+        ]
+    },{
+        "id": 28,
+        "sender": "user",
+        "txt": "Oh I know it too. Weren't there any more sophisticated questions?",
+        "next": [
+            47
+        ]
+    },{
+        "id": 29,
+        "sender": "bot",
+        "txt": "The most funny one was a bank with an sql injection vulnerability XD But it was a looooong time ago. Incredibly funny.",
+        "next": [
+            33,34
+        ]
+    },{
+        "id": 30,
+        "sender": "user",
+        "txt": "Hmmm, that might be a great idea. I hope they won't be too easy for me! What should one know while competing in a ctf?",
+        "next": [
+            38
+        ]
+    },{
+        "id": 31,
+        "sender": "bot",
+        "txt": "I don't know anything. I don't have any suspects. I won't talk about it anymore, I'm sorry",
+        "next": [
+            35,36
+        ]
+    },{
+        "id": 32,
+        "sender": "user",
+        "txt": "I sure will try. And what was your daily routine while working?",
+        "next": [
+            18
+        ]
+    },{
+        "id": 33,
+        "sender": "user",
+        "txt": "That's a true screw-up! Or as one might say, sql-up *ba dum tss*. Any other funny situations, or exploits?",
+        "next": [
+            42
+        ]
+    },{
+        "id": 34,
+        "sender": "user",
+        "txt": "A SQL injection? Like with a syringe? How does that work?",
+        "next": [
+            48
+        ]
+    },{
+        "id": 35,
+        "sender": "user",
+        "txt": "Okay, okay. How hard was the job to get then?",
+        "next": [
+            24
+        ]
+    },{
+        "id": 36,
+        "sender": "user",
+        "txt": "Okay. Let's get back on track. What were you doing there on a daily basis?",
+        "next": [
+            18
+        ]
+    },{
+        "id": 37,
+        "sender": "user",
+        "txt": "What attacks were you securing the companies against?",
+        "next": [
+            46
+        ]
+    },{
+        "id": 38,
+        "sender": "bot",
+        "txt": "You have to know basics of cryptograhy, forensics, reverse engineering, websecurity... And you'll score a lot of podiums ;D",
+        "next": [
+            39,40
+        ]
+    },{
+        "id": 39,
+        "sender": "user",
+        "txt": "Thanks for disclosure :) Do you have any reliable sources to learn from? The books I read can be quite boring...",
+        "next": [
+            41
+        ]
+    },{
+        "id": 40,
+        "sender": "user",
+        "txt": "I sure will! But first, I need a reliable source to learn from. Do you know any?",
+        "next": [
+            41
+        ]
+    },{
+        "id": 41,
+        "sender": "bot",
+        "txt": "Search for hacking wiki. Or use the HackInfo.rl forum",
+        "next": [
+            43
+        ]
+    },{
+        "id": 42,
+        "sender": "bot",
+        "txt": "Can't tell you",
+        "next": [
+            45
+        ]
+    },{
+        "id": 43,
+        "sender": "user",
+        "txt": "Thank you very much! I hope we meet someday, whether it’s at work or at a conference :D",
+        "next": [
+            44
+        ]
+    },{
+        "id": 44,
+        "sender": "bot",
+        "txt": "Hah, I hope so too. Bye",
+        "next": [
+            
+        ]
+    },{
+        "id": 45,
+        "sender": "user",
+        "txt": "Okay, okay... But can you tell me how does the SQL-injection work?",
+        "next": [
+            48
+        ]
+    },
+    {
+        "id": 46,
+        "sender": "bot",
+        "txt": "SQL injection, XSS for example",
+        "next": [
+            34,49
+        ]
+    },{
+        "id": 47,
+        "sender": "bot",
+        "txt": "They also asked me what's SQL injection or XSS",
+        "next": [
+            34,49
+        ]
+    },{
+        "id": 48,
+        "sender": "bot",
+        "txt": "So basically you can enter a SQL query into a input box on a website, and if it isn't protected against that, you can steal, change or delete data from their database. But of course, you should do that just for educational purposes ;) And do you know about XSS?",
+        "next": [
+            54
+        ]
+    },{
+        "id": 49,
+        "sender": "user",
+        "txt": "What's XSS? Some kind of variation on XD emoji?",
+        "next": [
+            50
+        ]
+    },{
+        "id": 50,
+        "sender": "bot",
+        "txt": "Oh, it's not an emoji. The 'XSS' stands for Cross-Site Scripting. When you know that website runs scripts in others' browsers, you can sneak a malicious script! In that way you can get one's login information, or steal their token, or basically, mess with what they see on the page. Remember... only for educational purposes. I don't want to be waken up by special forces when it's 3 am!",
+        "next": [
+            52
+        ]
+    },{
+        "id": 51,
+        "sender": "bot",
+        "txt": "They couldn't tell me in advance what I'll be doing haha. But they asked me what's SQL injection or XSS",
+        "next": [
+            34,49
+        ]
+    },{
+        "id": 52,
+        "sender": "user",
+        "txt": "Ok. And can you tell me something more about an SQL injection?",
+        "next": [
+            53
+        ]
+    },{
+        "id": 53,
+        "sender": "bot",
+        "txt": "So basically you can enter a SQL query into a input box on a website, and if it isn't protected against that, you can steal, change or delete data from their database. But of course, you should do that just for educational purposes ;)",
+        "next": [
+            56
+        ]
+    },{
+        "id": 54,
+        "sender": "user",
+        "txt": "No, i don't know about XSS. Is this a variation on 'XD' emoji?",
+        "next": [
+            55
+        ]
+    },{
+        "id": 55,
+        "sender": "bot",
+        "txt": "Oh, it's not an emoji. The 'XSS' stands for Cross-Site Scripting. When you know that website runs scripts in others' browsers, you can sneak a malicious script! In that way you can get one's login information, or steal their token, or basically, mess with what they see on the page. Remember... only for educational purposes. I don't want to be waken up by special forces when it's 3 am!",
+        "next": [
+            56
+        ]
+    },{
+        "id": 56,
+        "sender": "user",
+        "txt": "Thank you so much!! That's some valuable knowledge. Do you have any reliable sources? Because the books I read can be quite boring...",
+        "next": [
+            41
+        ]
+    }
+]

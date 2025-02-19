@@ -1,0 +1,41 @@
+.investments {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    padding: 10px 0;
+    color: #fff;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  
+  .scrolling-bar {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .stock-item {
+    margin: 0 20px;
+    font-family: monospace;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .stock-item.positive {
+    color: #00ff00;
+  }
+  
+  .stock-item.negative {
+    color: #ff0000;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

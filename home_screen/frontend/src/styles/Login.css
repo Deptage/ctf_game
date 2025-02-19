@@ -1,0 +1,44 @@
+.loginPage {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    color: #fffeec;
+}
+
+.loginPage h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #228609;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .login-container button:hover {
+    background-color: #21cf21;
+  }
+
+  
+

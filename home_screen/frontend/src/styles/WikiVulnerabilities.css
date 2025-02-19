@@ -1,0 +1,18 @@
+.vulnerability-panel {
+    border: 4px #11ff55 solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #0daf3b22;
+}
+.vulnerability-text{
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+    white-space: pre-wrap;
+    margin:25px;
+}
+.vulnerability-text:hover{
+    text-shadow: #27e95e 12px 0 30px;
+}

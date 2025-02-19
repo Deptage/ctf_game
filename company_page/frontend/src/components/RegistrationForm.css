@@ -1,0 +1,40 @@
+.registrationForm {
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: lightgray;
+}
+.textForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input, textarea {
+    margin-top: 12px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.confirmButton{
+    width: 50%;
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: #2c7e5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+small {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-size: 12px;
+}

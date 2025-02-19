@@ -1,0 +1,16 @@
+.burgerContainer {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange bars vertically */
+    justify-content: center; /* Vertically center the bars */
+    align-items: center; /* Horizontally center the bars */
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    margin: 3px 0;
+}

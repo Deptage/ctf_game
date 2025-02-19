@@ -1,0 +1,103 @@
+.todo-list {
+  margin: auto;
+  background: linear-gradient(135deg, #002f00, #004d00);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 100, 0.4);
+}
+
+.todo-list h1 {
+  color: #bffb73;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px;
+  text-shadow: 0 0 10px rgba(191, 251, 115, 0.7);
+}
+
+.todo-list p {
+  display: block;
+  margin: auto;
+  border: 2px solid rgba(191, 250, 115, 0.9);
+  border-radius: 15px;
+  padding: 10px;
+  background: linear-gradient(135deg, #004d00, #008000);
+  color: #bffb73;
+  box-shadow: 0px 0px 10px rgba(0, 255, 100, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.flag-warning {
+  color:#bffb73;
+}
+.todo-list p:hover {
+  background: linear-gradient(135deg, #006600, #00b300);
+  transform: scale(1.02);
+}
+
+.todo-list p + p {
+  margin-top: 20px;
+}
+
+.todo-list p.completed {
+  color: #a6e22e;
+  text-decoration: line-through;
+}
+
+.todo-list input:focus {
+  background-color: #004d00 !important;
+  color: #bffb73 !important;
+  border-color: rgb(142, 207, 98) !important;
+  box-shadow: 0 0 5px rgba(191, 250, 115, 0.5);
+}
+
+.todo-list button {
+  padding: 5px;
+  background-color: #002f00;
+  color: rgb(191, 250, 115);
+  border: 2px solid rgb(142, 207, 98);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(191, 250, 115, 0.3);
+}
+
+.todo-list button:hover {
+  background-color: rgb(191, 250, 115);
+  color: #002f00;
+  border-color: #bffb73;
+  box-shadow: 0 0 10px rgba(191, 250, 115, 0.7);
+}
+
+.todo-list p.completed {
+  background: linear-gradient(135deg, #002700, #004100) !important;
+}
+
+.todo-list p.error {
+  background: linear-gradient(135deg, #ff3333, #ff6666);
+  color: #fff;
+  animation: shake 0.2s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.visit-wiki{
+  padding: 10px;
+  margin: auto;
+  text-shadow: 0 0 10px rgba(191, 251, 115, 0.7) !important;
+  transition: text-shadow 0.3s ease;
+}
+.visit-wiki:hover{
+  cursor:pointer !important;
+  text-shadow: 0 0 20px greenyellow !important;
+}
+.inside-flag{
+  display:flex;
+  flex-direction: column;
+}

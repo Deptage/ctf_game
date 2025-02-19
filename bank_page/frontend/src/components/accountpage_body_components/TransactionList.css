@@ -1,0 +1,41 @@
+.transactionList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactionItemPositive {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px dashed #3dba75;
+    border-radius: 8px;
+    background-color: #3dba7581;
+}
+.transactionItemNegative {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px dashed #bb4c4c;
+    border-radius: 8px;
+    background-color: #bb4c4c81;
+}
+
+.positiveAmount {
+    color: green;
+}
+
+.negativeAmount {
+    color: red;
+}
+.transactionAccount {
+    color: #000;
+}
+
+.transactionDate {
+    color: #000;
+}

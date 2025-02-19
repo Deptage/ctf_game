@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'template_webserver/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'template_webserver/**'
+
+jobs:
+  build:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Cache Docker layers
+      uses: actions/cache@v2
+      with:
+        path: /tmp/.buildx-cache
+        key: ${{ runner.os }}-buildx-${{ github.sha }}
+        restore-keys: |
+          ${{ runner.os }}-buildx-
+
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v1
+
+    - name: Build Docker images
+      run: docker compose -f template_webserver/docker-compose-all.yml build
+
+    - name: Run Docker Compose
+      run: docker compose -f template_webserver/docker-compose-all.yml up -d
+
+    - name: Wait for DB to be \bhealthy\b
+      run: |
+        while ! docker compose -f template_webserver/docker-compose-all.yml exec db pg_isready -U postgres; do
+          echo "Waiting for database to be ready..."
+          sleep 10
+        done
+
+    - name: Check backend container health
+      run: |
+        while ! docker inspect --format='{{.State.Health.Status}}' $(docker compose -f template_webserver/docker-compose-all.yml ps -q backend) | grep -q '\bhealthy\b'; do
+          echo "Waiting for backend to be \bhealthy\b..."
+          sleep 10
+        done
+
+    - name: Check frontend container health
+      run: |
+        while ! docker inspect --format='{{.State.Health.Status}}' $(docker compose -f template_webserver/docker-compose-all.yml ps -q frontend) | grep -q '\bhealthy\b'; do
+          echo "Waiting for frontend to be \bhealthy\b..."
+          sleep 10
+        done
+
+    - name: Tear down Docker Compose
+      run: docker compose -f template_webserver/docker-compose-all.yml down

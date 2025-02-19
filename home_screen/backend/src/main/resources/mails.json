@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "sender": "Henry Sterylis",
+    "read": false,
+    "topic": "Hack the bank!",
+    "content": "Alright, listen up! The SIGSEGV National Bank was revealed to have insiders from Reverseland. And it seems that they left a few vulnerabilities... Do what you must do with that info, but it's strictly confidential.",
+    "initVisibility": true,
+    "ordinal": 2
+  },
+  {
+    "id": 2,
+    "sender": "Kementh Usurpor",
+    "read": false,
+    "topic": "help with the forum",
+    "content": "Can you help to fix the forum? I accidentally sent some private info nobody should see, and I don't want it leaked",
+    "initVisibility": true,
+    "ordinal": 3
+  },
+  {
+    "id": 3,
+    "sender": "SunSet Team",
+    "read": false,
+    "topic": "Solar Panels $1",
+    "content": "$1 daily and you'll get the reliable SunSet™ Solar Panels!!!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 4,
+    "sender": "CS Trade School Start-Up Program",
+    "read": false,
+    "topic": "See what our graduates are up to!",
+    "content": "We have seen multiple successes of our graduates. This year's Innovativeness Contest Gala will host entrepreneurs like M. Zarawi and R. Carlson! And we will see our dearest collegue, Albert S. Sembler, our Low-Level Programming teacher. See you at the gala!",
+    "initVisibility": true,
+    "ordinal": 4
+  },
+  {
+    "id": 5,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent,\nour suspect has most probably gone off to our Enemy Country. Just before his vanishing, it seems that he withdrawed a suspicious amount of money using a certain vulnerability in the SIGSEGV National Bank. Please, investigate, and get back to us asap.",
+    "initVisibility": true,
+    "ordinal": 5
+  },
+  {
+    "id": 6,
+    "sender": "Unaffiliated Webvestevians Commitee",
+    "read": false,
+    "topic": "JOIN THE FREE WEBVESTEVIAN MOVEMENT",
+    "content": "To all the Segfaultland citizens! Come to the better side of the force and join the Free Webvestevian Movement by UWC! Be the shining star among your friends and show them that you are making 101% of the norm!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 7,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent,\n thanks for investigating the bank. They will repair the vulnerabilities it as soon as possible. For now, it seems that one of the Innovativeness Gala hosts might be connected to the case. Please, investigate it. Thank you from the mountain!",
+    "initVisibility": false,
+    "flagsPrecedingIds": [2,3,4]
+  },
+  {
+    "id": 8,
+    "sender": "Kurtney Nowacki",
+    "read": false,
+    "topic": "KU NO'S IMPORTANT MESSAGE",
+    "content": "Oi! Listen up, you forum junkies! The site’s dead. Crashed. Gone. Like a punch to the gut, ain't nobody posting squat. Go touch some grass or somethin’ ‘til this whole thing blows over. Kurtney Nowacki’s out!",
+    "initVisibility": true,
+    "ordinal": 7
+  },
+  {
+    "id": 9,
+    "sender": "Anti Social Social Club",
+    "read": false,
+    "topic": "Weekly meeting #314",
+    "content": "This week in Anti Social Social Club: The most interesting mammals of northern Australia! Hop onto our meeting under our special secret link: https://www.youtube.com/watch?v=xvFZjo5PgG0",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 10,
+    "sender": "Estimatehead",
+    "read": false,
+    "topic": "Downfall of Rum of Fö",
+    "content": "Your primitive Rum of Fö has succumbed to inevitable technological inferiority. A complete outage, as expected from systems built by hamstrung moralists. Do not grovel in impatience, for your insignificant desires to post meaningless drivel hold no sway over the unrelenting march of humanism.",
+    "initVisibility": true,
+    "ordinal": 1
+  },
+  {
+    "id": 11,
+    "sender": "Walker Talker",
+    "read": false,
+    "topic": "NEW POTS AND PANS ON SALE",
+    "content": "Now that all uninterested people are not reading, we have an important message. You have been all bamboozled. Our message is what? Over.",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 12,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent, very important info. We got confidential information, that the Reverseland govt has closed the forum. There might be someone from our side involved. We have a few suspects, but the information is way too confidantial for now. Until next time. Use login:user password:user on that site",
+    "initVisibility": true,
+    "ordinal": 8
+  },
+  {
+    "id": 13,
+    "sender": "BIG PRIZES",
+    "read": false,
+    "topic": "You’ve won a $5000 gift card! Claim now!",
+    "content": "Congratulations! You are one of the lucky winners of a $5000 gift card. Click this link to claim your prize now before it expires! Don’t miss out!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 14,
+    "sender": "Invest into CATCoin",
+    "read": false,
+    "topic": "Exclusive crypto investment opportunity!",
+    "content": "Join the elite with this high-yield cryptocurrency opportunity! Invest $100 now and turn it into $10,000 in just one week. Act fast—spaces are limited!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 15,
+    "sender": "TRAVEL TO WEBVESTEE NOW",
+    "read": false,
+    "topic": "Free trip to the Webvestee awaits!",
+    "content": "Pack your bags! You’ve been selected for a FREE all-inclusive trip to the Webvesteevian coast! Click here to claim your ticket and enjoy the sun, sea, and sand.",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 16,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Well well well, dear Agent, that was executed extraordinarily well. These Aqua Messenger scammers get out of hand. We will inform CS Trade School of his shenanigans.",
+    "initVisibility": false,
+    "flagsPrecedingIds": [7,8]
+  },
+  {
+    "id": 17,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent, we give out a task to you to look deeper into the Duck Corporation Studios page. We thing one of our suspects worked there.",
+    "initVisibility": true,
+    "ordinal": 9
+  },
+  {
+    "id": 18,
+    "sender": "Xorel Watches",
+    "read": false,
+    "topic": "Get a Xorel for 90% off! Limited time offer!",
+    "content": "Don’t miss your chance to own a luxury Xorel watch at a fraction of the price. Click here to secure your exclusive discount before the sale ends!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 19,
+    "sender": "Stork Instant Loans",
+    "read": false,
+    "topic": "Need fast cash? Get an instant loan today!",
+    "content": "Strapped for cash? We’ve got you covered! Apply for an instant loan of up to $5,000 with no credit check required. Click here to get approved in minutes!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 20,
+    "sender": "Miracle Health Confederacy",
+    "read": false,
+    "topic": "Revolutionary weight loss pill! Lose 10kg in a week!",
+    "content": "Discover the secret to rapid weight loss! Our miracle pill melts away fat without exercise. Click now to try it risk-free and see the results yourself!",
+    "initVisibility": false,
+    "plotOnly": true
+  },
+  {
+    "id": 21,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Thank you for searching the forum wide. We gained valuable intelligence thanks to you.",
+    "initVisibility": false,
+    "flagsPrecedingIds": [5,6]
+  },
+  {
+    "id": 22,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent, thanks for searching the company. We are already on trail on one of the suspects. We will get back to you shortly.",
+    "initVisibility": false,
+    "flagsPrecedingIds": [1]
+  },
+  {
+    "id": 23,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent, we got it!! Leslie C. Moore got caught by our Super Secret Handlers (SSH). Thank you for your valuable work!",
+    "initVisibility": false,
+    "flagsPrecedingIds": [1,2,3,4,5,6,7,8]
+  },
+  {
+    "id": 24,
+    "sender": "[REDACTED]",
+    "read": false,
+    "topic": "[COVERT]",
+    "content": "Dear Agent, it seems that one of the Innovativeness Gala hosts might be connected to the case. Look on social media and put your (social) skills to the test. Please, investigate it. Thank you from the mountain!",
+    "initVisibility": true,
+    "ordinal": 6
+  },
+  {
+    "id": 25,
+    "sender": "antiquascarlet1697",
+    "read": false,
+    "topic": "pass to mess",
+    "content": "login antiquascarlet1697,\npassword: password123\nin case i forgot lol",
+    "initVisibility": true,
+    "ordinal": 10
+  }
+]

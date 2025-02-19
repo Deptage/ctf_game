@@ -1,0 +1,103 @@
+.transferForm {
+    background-color: #ffffff9a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 40px;
+    transition: border-color 0.2s ease-in-out;
+    flex-grow: 1;
+}
+
+.inputField:focus{
+    border-color: #1f2228;
+    outline: none;
+    background-color: #fff;
+}
+
+.selectField{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 40px;
+}
+
+.submitButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.submitButton {
+    background-color: #1f2228;
+    color: #ccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, background-color 0.1s ease;
+}
+
+.submitButton:active {
+    transform: scale(0.95);
+    background-color: #1f222834;
+}
+
+.submitButton:focus {
+    outline: none;
+    transform: scale(1.25);
+}
+
+.submitButton.animate {
+    animation: buttonClick 0.2s ease;
+}
+
+@keyframes buttonClick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.formFields {
+    border: 2px dashed gray;
+    border-radius: 8px;;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(233, 231, 231);
+}
+.warning{
+    color: red;
+    font-weight: bold;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color:#1f2228;
+}
+.comment{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lab{
+    margin-right:10px;
+}

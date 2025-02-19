@@ -1,0 +1,33 @@
+.dollar-background {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f09a;
+    z-index: -1;
+}
+
+.dollar-sign {
+    position: absolute;
+    font-size: 2rem;
+    opacity: 0; 
+    animation: pulse 8s infinite;
+    color: #ffffff6a;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

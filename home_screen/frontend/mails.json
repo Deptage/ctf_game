@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "sender": "Rohtened Nrogara",
+        "READ": false,
+        "TOPIC": "Hack the bank!",
+        "tresc": "Alright, listen up! The SIGSEGV National Bank was revealed to have insiders from Reverseland. And it seems that they left a few vulnerabilities... Do what you must do with that info, but it's strictly confidential.",
+        "vis": true
+    },
+    {
+        "id": 2,
+        "sender": "Noruas Nedoeht",
+        "READ": false,
+        "TOPIC": "help with the forum",
+        "tresc": "Can you help to fix the forum? I accidentally sent some photos nobody should see, and I don't want it leaked",
+        "vis": true
+    },
+    {
+        "id": 3,
+        "sender": "SunSet Team",
+        "READ": true,
+        "TOPIC": "Solar Panels $1",
+        "tresc": "$1 daily and you'll get the reliable SunSet™ Solar Panels!!!",
+        "vis": true
+    },
+    {
+        "id": 4,
+        "sender": "CS Trade School Start-Up Program",
+        "READ": false,
+        "TOPIC": "See what our graduates are up to!",
+        "tresc": "We have seen multiple successes of our graduates. This year's Innovativeness Contest Gala will host entrepreneurs like M. Zarawi and R. Carlson! And we will see our dearest collegue, Albert S. Sembler, our Low-Level Programming teacher. See you at the gala!",
+        "vis": true
+    },
+    {
+        "id": 5,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, \n our suspect has most probably gone off to our Enemy Country. Just before his vanishing, it seems that he withdrawed a suspicious amount of money using a certain vulnerability in the SIGSEGV National Bank. Please, investigate, and get back to us asap. And this two-head, Rohtened N. will surely be fired for sending covert info from his private e-mail.",
+        "vis": true
+    },
+    {
+        "id": 6,
+        "sender": "Unaffiliated Webvestevians Commitee",
+        "READ": false,
+        "TOPIC": "JOIN THE FREE WEBVESTEVIAN MOVEMENT",
+        "tresc": "To all the Segfaultland citizens! Come to the better side of the force and join the Free Webvestevian Movement by UWC! Be the shining star among your friends and show them that you are making 101% of the norm!",
+        "vis": false
+    },
+    {
+        "id": 7,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, \n thanks for investigating the bank. They will repair the vulnerabilities it as soon as possible.",
+        "vis": false
+    },
+    {
+        "id": 8,
+        "sender": "Ku No",
+        "READ": false,
+        "TOPIC": "KU NO'S IMPORTANT MESSAGE",
+        "tresc": "Oi! Listen up, you forum junkies! The site’s dead. Crashed. Gone. Like a punch to the gut, ain't nobody posting squat. Ku No doesn't care. Go touch some grass or somethin’ ‘til this whole thing blows over. Ku No’s out!",
+        "vis": false
+    },
+    {
+        "id": 9,
+        "sender": "Anti Social Social Club",
+        "READ": false,
+        "TOPIC": "Weekly meeting #314",
+        "tresc": "This week in Anti Social Social Club: The most interesting mammals of northern Australia! Hop onto our meeting under our special secret link: https://www.youtube.com/watch?v=xvFZjo5PgG0",
+        "vis": false
+    },
+    {
+        "id": 10,
+        "sender": "Estimatehead",
+        "READ": false,
+        "TOPIC": "Downfall of Rum of Fö",
+        "tresc": "Your primitive Rum of Fö has succumbed to inevitable technological inferiority. A complete outage, as expected from systems built by hamstrung moralists. Do not grovel in impatience, for your insignificant desires to post meaningless drivel hold no sway over the unrelenting march of humanism.",
+        "vis": false
+    },
+    {
+        "id": 11,
+        "sender": "Walker Talker",
+        "READ": false,
+        "TOPIC": "NEW POTS AND PANS ON SALE",
+        "tresc": "Now that all uninterested people are not reading, we have an important message. You have been all bamboozled. Our message is what? Over.",
+        "vis": false
+    },
+    {
+        "id": 12,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, very important info. We got confidential information, that the Reverseland govt has closed the forum. There might be someone from our side involved. We have a few suspects, but the information is way too confidential for now. Until next time.",
+        "vis": false
+    },
+    {
+        "id": 13,
+        "sender": "BIG PRIZES",
+        "READ": false,
+        "TOPIC": "You’ve won a $5000 gift card! Claim now!",
+        "tresc": "Congratulations! You are one of the lucky winners of a $5000 gift card. Click this link to claim your prize now before it expires! Don’t miss out!",
+        "vis": false
+    },
+    {
+        "id": 14,
+        "sender": "Invest into CATCoin",
+        "READ": false,
+        "TOPIC": "Exclusive crypto investment opportunity!",
+        "tresc": "Join the elite with this high-yield cryptocurrency opportunity! Invest $100 now and turn it into $10,000 in just one week. Act fast—spaces are limited!",
+        "vis": false
+    },
+    {
+        "id": 15,
+        "sender": "TRAVEL TO WEBVESTEE NOW",
+        "READ": false,
+        "TOPIC": "Free trip to the Webvestee awaits!",
+        "tresc": "Pack your bags! You’ve been selected for a FREE all-inclusive trip to the Webvesteevian coast! Click here to claim your ticket and enjoy the sun, sea, and sand.",
+        "vis": false
+    },
+    {
+        "id": 16,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Well well well, dear Agent, that was executed extraordinarily well. These Aqua Messenger scammers get out of hand. We will inform CS Trade School of his shenanigans.",
+        "vis": false
+    },
+    {
+        "id": 17,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, we give out a task to you to look deeper into the Duck Corporation Studios page. We thing one of our suspects worked there.",
+        "vis": true
+    },
+    {
+        "id": 18,
+        "sender": "Lorex Watches",
+        "READ": false,
+        "TOPIC": "Get a Lorex for 90% off! Limited time offer!",
+        "tresc": "Don’t miss your chance to own a luxury Lorex watch at a fraction of the price. Click here to secure your exclusive discount before the sale ends!",
+        "vis": false
+    },
+    {
+        "id": 19,
+        "sender": "Stork Instant Loans",
+        "READ": false,
+        "TOPIC": "Need fast cash? Get an instant loan today!",
+        "tresc": "Strapped for cash? We’ve got you covered! Apply for an instant loan of up to $5,000 with no credit check required. Click here to get approved in minutes!",
+        "vis": false
+    },
+    {
+        "id": 20,
+        "sender": "Miracle Health Confederacy",
+        "READ": false,
+        "TOPIC": "Revolutionary weight loss pill! Lose 10kg in a week!",
+        "tresc": "Discover the secret to rapid weight loss! Our miracle pill melts away fat without exercise. Click now to try it risk-free and see the results yourself!",
+        "vis": false
+    },
+    {
+        "id": 21,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Thank you for searching the forum wide. We gained valuable intelligence thanks to you.",
+        "vis": false
+    },
+    {
+        "id": 22,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, thanks for searching the company. We are already on trail on one of the suspects. We will get back to you shortly.",
+        "vis": false
+    },
+    {
+        "id": 23,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, we got it!! Leslie C. Moore got caught by our Super Secret Handlers (SSH). Thank you for your valuable work!",
+        "vis": false
+    },
+    {
+        "id": 24,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, it seems that one of the Innovativeness Gala hosts might be connected to the case. Look on social media and put your (social) skills to the test. Please, investigate it. Thank you from the mountain!",
+        "vis": false
+    },
+    {
+        "id": 25,
+        "sender": "[REDACTED]",
+        "READ": false,
+        "TOPIC": "[COVERT]",
+        "tresc": "Dear Agent, please use this formal account for your messenger. \nlogin antiquascarlet1697, \npassword: password123",
+        "vis": false
+    }
+]

@@ -1,0 +1,65 @@
+.accountsList {
+    margin-bottom: 20px;
+    overflow-y: auto; 
+    padding-right: 10px;
+}
+
+.accountItem {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.accountItemSelected {
+    background-color: #ccc;
+}
+
+.accountItem:hover{
+    background-color: #bbb;
+    transform: scale(0.99);
+}
+
+.rightInfo {
+    border: 2px dashed;
+    border-radius: 12px;
+    text-align: center;
+    padding:5px;
+    margin:15px;
+}
+
+
+
+.accountButton {
+    background-color: #1f2228;
+    color: #ccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+.accountButton:active {
+    transform: scale(0.95);
+    background-color: #1f222834;
+}
+
+.accountButton:focus {
+    outline: none;
+    transform: scale(1.25);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

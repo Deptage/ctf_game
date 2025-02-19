@@ -1,0 +1,523 @@
+[
+    {
+        "id": 1,
+        "sender": "bot",
+        "txt": "Hi Antiqua, have you graduated from the Computer Science Trade School in the capital by any chance?",
+        "sent": true,
+        "next": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 2,
+        "sender": "user",
+        "txt": "Hi Robert, yes, I have, do you know me from there?",
+        "next": [
+            5
+        ]
+    },
+    {
+        "id": 3,
+        "sender": "user",
+        "txt": "Hello, who are you?",
+        "next": [
+            6
+        ]
+    },
+    {
+        "id": 4,
+        "sender": "user",
+        "txt": "Why do you ask?",
+        "next": [
+            7
+        ]
+    },
+    {
+        "id": 5,
+        "sender": "bot",
+        "txt": "I saw your name on the school's graduation papers that you've won in the Innovativeness Contest 2023",
+        "next": [
+            8,
+            9
+        ]
+    },
+    {
+        "id": 6,
+        "sender": "bot",
+        "txt": "Oh, sorry to not introduce myself first. My name's Robert Carlson, i'm an inventor and I graduated the CS Trade School three years ago :D",
+        "next": [
+            10,
+            11
+        ]
+    },
+    {
+        "id": 7,
+        "sender": "bot",
+        "txt": "Oh, I graduated the CS Trade School three years ago :D",
+        "next": [
+            12,
+            13
+        ]
+    },
+    {
+        "id": 8,
+        "sender": "user",
+        "txt": "Well my team won, but I was just their programmer",
+        "next": [
+            14
+        ]
+    },
+    {
+        "id": 9,
+        "sender": "user",
+        "txt": "Did you like our project?",
+        "next": [
+            15
+        ]
+    },
+    {
+        "id": 10,
+        "sender": "user",
+        "txt": "Hi Robert. Three years ago? Have you found a good job after graduating our school?",
+        "next": [
+            16
+        ]
+    },
+    {
+        "id": 11,
+        "sender": "user",
+        "txt": "Hi, nice to meet you. I'm Antiqua Scarlet, but you probably already know that haha",
+        "next": [
+            17
+        ]
+    },
+    {
+        "id": 12,
+        "sender": "user",
+        "txt": "And?",
+        "next": [
+            18
+        ]
+    },
+    {
+        "id": 13,
+        "sender": "user",
+        "txt": "Did you like it?",
+        "next": [
+            19
+        ]
+    },
+    {
+        "id": 14,
+        "sender": "bot",
+        "txt": "But you were part of the team and I'm sure they would not have succeeded without you, judging from your other awards. Anyways, the CPU Optimization Protocol you made is a promising one. Actually, one of my recent projects touches the subject a bit",
+        "next": [
+            20,
+            21
+        ]
+    },
+    {
+        "id": 15,
+        "sender": "bot",
+        "txt": "Yes, the CPU Optimization Protocol you made is a promising one. I must congratulate you on you and your teams success because I myself, specialize in innovativeness, invention and hardware. Your project picked up my attention because of that",
+        "next": [
+            22
+        ]
+    },
+    {
+        "id": 16,
+        "sender": "bot",
+        "txt": "Oh, I haven't found anything unfortunately. But I mustered some courage and made my own startup",
+        "next": [
+            23,
+            24
+        ]
+    },
+    {
+        "id": 17,
+        "sender": "bot",
+        "txt": "Yeah I know. When I was talking with our Low Level Programming teacher he praised you! And I saw the graduate's award section - your project really caught my attention. I myself specialize in innovativeness, invention and hardware, as now I work in my own Startup. Would you like to hear something about my latest projects?",
+        "next": [
+            25,
+            26
+        ]
+    },
+    {
+        "id": 18,
+        "sender": "bot",
+        "txt": "And the graduate's awards section caught my attention. The CPU Optimization Protocol you made is a promising one. I must congratulate you on you and your teams success because I myself, specialize in innovativeness, invention and hardware",
+        "next": [
+            8,
+            22
+        ]
+    },
+    {
+        "id": 19,
+        "sender": "bot",
+        "txt": "Oh yes, especially the Low Level Programming teacher. I saw the graduate's award section - your project really caught my attention. I myself specialize in innovativeness, invention and hardware, as now I work in my own Startup. Would you like to hear something about my latest projects?",
+        "next": [
+            25,
+            26
+        ]
+    },
+    {
+        "id": 20,
+        "sender": "user",
+        "txt": "Thank you very much. Would you like to share what your next project is about?",
+        "next": [
+            27
+        ]
+    },
+    {
+        "id": 21,
+        "sender": "user",
+        "txt": "Thank you. Do you want some help with your project? I can help a fellow collegue",
+        "next": [
+            31
+        ]
+    },
+    {
+        "id": 22,
+        "sender": "user",
+        "txt": "Thank you very much. Are you working on something nowadays? I am learning to be a cybersecurity specialist.",
+        "next": [
+            28
+        ]
+    },
+    {
+        "id": 23,
+        "sender": "user",
+        "txt": "A startup? Seems interesting. What's your startup all about? Is it possible to join you? I'm looking for a job desperately...",
+        "next": [
+            31
+        ]
+    },
+    {
+        "id": 24,
+        "sender": "user",
+        "txt": "A startup? Well, I hope it goes well for you in that unforgiving market. Can you share something about your products/services/anything you do for your company?",
+        "next": [
+            29
+        ]
+    },
+    {
+        "id": 25,
+        "sender": "user",
+        "txt": "Yes, please! :D",
+        "next": [
+            29
+        ]
+    },
+    {
+        "id": 26,
+        "sender": "user",
+        "txt": "If it's about cybersecurity, you can tell me.",
+        "next": [
+            30
+        ]
+    },
+    {
+        "id": 27,
+        "sender": "bot",
+        "txt": "My next project? It needs some funds and sponsors, but as my latest project goes, I invented APU\u2122 Awesome Processing Unit that replaces both processor and GPU. It was awarded Consumers' Prize 2024 as The Most Innovative Product",
+        "next": [
+            34,
+            35
+        ]
+    },
+    {
+        "id": 28,
+        "sender": "bot",
+        "txt": "Oh aside from practicing IPoAC in my spare time and looking for investors, I am looking for testers of my latest projects, including the APU\u2122 Awesome Processing Unit  that replaces both processor and GPU. It was awarded Consumers' Prize 2024 as The Most Innovative Product. Would you be interested in testing such an invention? You can be a part of the IT history!",
+        "next": [
+            32,
+            33
+        ]
+    },
+    {
+        "id": 29,
+        "sender": "bot",
+        "txt": "I invented APU\u2122 Awesome Processing Unit that replaces both processor and GPU. It was awarded Consumers' Prize 2024 as The Most Innovative Product",
+        "next": [
+            34,
+            35
+        ]
+    },
+    {
+        "id": 30,
+        "sender": "bot",
+        "txt": "It touches this topic a bit, but it is mainly Low Level Programming, circuit boards, chips, and hardware. It's the APU\u2122 Awesome Processing Unit that replaces both processor and GPU. It was awarded Consumers' Prize 2024 as The Most Innovative Product",
+        "next": [
+            34,
+            35
+        ]
+    },
+    {
+        "id": 31,
+        "sender": "bot",
+        "txt": "Oh, bringing another person into a startup is a tedious task. You know, taxes etc. But you can help me out by testing out my latest project, the APU\u2122 Awesome Processing Unit  that replaces both processor and GPU. It was awarded Consumers' Prize 2024 as The Most Innovative Product and needs some additional testers. I cannot give it out to you for free, but a reduced price will suit",
+        "next": [
+            36,
+            37
+        ]
+    },
+    {
+        "id": 32,
+        "sender": "user",
+        "txt": "What's IPoAC?",
+        "next": [
+            38
+        ]
+    },
+    {
+        "id": 33,
+        "sender": "user",
+        "txt": "Yes, I'm interested, I will always support a fellow graduate",
+        "next": [
+            41
+        ]
+    },
+    {
+        "id": 34,
+        "sender": "user",
+        "txt": "Is that even possible? Can you share a little more about how it works?",
+        "next": [
+            39
+        ]
+    },
+    {
+        "id": 35,
+        "sender": "user",
+        "txt": "Can't find anything about it on the Internet, can you share a link?",
+        "next": [
+            40
+        ]
+    },
+    {
+        "id": 36,
+        "sender": "user",
+        "txt": "How much?",
+        "next": [
+            54
+        ]
+    },
+    {
+        "id": 37,
+        "sender": "user",
+        "txt": "Well I hope that the reduced price is VERY reduced ;D",
+        "next": [
+            45
+        ]
+    },
+    {
+        "id": 38,
+        "sender": "bot",
+        "txt": "Oh, Internet Protocol over Avian Carriers. You know, the bird is the word! Don't you know about the bird?",
+        "next": [
+            43
+        ]
+    },
+    {
+        "id": 39,
+        "sender": "bot",
+        "txt": "To cut long story short, It basically multiplies the computational power of both GPU and CPU Units by taking up the power and space of just a simple CPU! Isn't it just amazing? And actually it turns out to be cheaper than any GPU or CPU with matching computational powers. With maximal power input, it reaches 1697 GFLOPS!",
+        "next": [
+            44
+        ]
+    },
+    {
+        "id": 40,
+        "sender": "bot",
+        "txt": "Oh, it should be at www.apu.bird.sf/about",
+        "next": [
+            63
+        ]
+    },
+    {
+        "id": 41,
+        "sender": "bot",
+        "txt": "Oh that's so great to hear! I can ship it out to you, and you can use the website www.apu.bird.sf/buy to make a payment, it should be just $50, but if you do not like the product you get a 90-day money back guarantee :)",
+        "next": [
+            47,
+            56
+        ]
+    },
+    {
+        "id": 42,
+        "sender": "bot",
+        "txt": "It seems my provider has an outage. But to cut long story short, it basically multiplies the computational power of both GPU and CPU Units by taking up the power and space of just a simple CPU! Isn't it just amazing? And actually it turns out to be cheaper than any GPU or CPU with matching computational powers. With maximal power input, it reaches 1697 GFLOPS!",
+        "next": [
+            44
+        ]
+    },
+    {
+        "id": 43,
+        "sender": "user",
+        "txt": "Well everybody knows that the bird is the word!",
+        "next": [
+            46
+        ]
+    },
+    {
+        "id": 44,
+        "sender": "user",
+        "txt": "Ummmm... That's fantastic! I'm buying it right away!",
+        "next": [
+            50
+        ]
+    },
+    {
+        "id": 45,
+        "sender": "bot",
+        "txt": "Oh the regular price is $250, but just for you i can make it $50. With 90-day money back guarantee!",
+        "next": [
+            47
+        ]
+    },
+    {
+        "id": 46,
+        "sender": "bot",
+        "txt": "You've got the spirit! And should you want to test out my latest project, you'd be surfin' like a bird!",
+        "next": [
+            48,
+            49
+        ]
+    },
+    {
+        "id": 47,
+        "sender": "user",
+        "txt": "Can you send me a link to the terms of service?",
+        "next": [
+            51
+        ]
+    },
+    {
+        "id": 48,
+        "sender": "user",
+        "txt": "I think I just might, I have a lot of free time. And also, I will always support a fellow graduate!",
+        "next": [
+            41
+        ]
+    },
+    {
+        "id": 49,
+        "sender": "user",
+        "txt": "Yeah, your invention sounds... quite amazing. Can you share a little more about how it works?",
+        "next": [
+            39
+        ]
+    },
+    {
+        "id": 50,
+        "sender": "bot",
+        "txt": "As the website provider might have an outage right now, I can file a manual form using my startup's proprietary application. I would just need your credit card number so I can process the form without any problems.",
+        "next": [
+            52
+        ]
+    },
+    {
+        "id": 51,
+        "sender": "bot",
+        "txt": "www.apu.bird.sf/ToS, you can find there everything you need. Or just ask me!",
+        "next": [
+            55
+        ]
+    },
+    {
+        "id": 52,
+        "sender": "user",
+        "txt": "How much is it?",
+        "next": [
+            53
+        ]
+    },
+    {
+        "id": 53,
+        "sender": "bot",
+        "txt": "Normally, it's $250, but for you I can muster up a $50 deal ;) With 90-day money back guarantee!",
+        "next": [
+            62
+        ]
+    },
+    {
+        "id": 54,
+        "sender": "bot",
+        "txt": "Oh the regular price is $250, but just for you i can make it $50. With 90-day money back guarantee!",
+        "next": [
+            55,
+            56
+        ]
+    },
+    {
+        "id": 55,
+        "sender": "user",
+        "txt": "Ok, how can I pay you?",
+        "next": [
+            57
+        ]
+    },
+    {
+        "id": 56,
+        "sender": "user",
+        "txt": "Can you make it $45? That's all left in my bank account",
+        "next": [
+            58
+        ]
+    },
+    {
+        "id": 57,
+        "sender": "bot",
+        "txt": "www.apu.bird.sf/buy, there you have the payment form!",
+        "next": [
+            59
+        ]
+    },
+    {
+        "id": 58,
+        "sender": "bot",
+        "txt": "No worries Antiqua! $45 right away :D",
+        "next": [
+            60
+        ]
+    },
+    {
+        "id": 59,
+        "sender": "user",
+        "txt": "Hmmm, the website does not work.",
+        "next": [
+            61
+        ]
+    },
+    {
+        "id": 60,
+        "sender": "user",
+        "txt": "Thank you, how can I pay you?",
+        "next": [
+            57
+        ]
+    },
+    {
+        "id": 61,
+        "sender": "bot",
+        "txt": "Oh, I think the website provider may have an outage. Instead, you can give me your credit card number so I can process a manual form. Unfortunately, the company's account numbers are private so it must be done through processes like this",
+        "next": [
+            62
+        ]
+    },
+    {
+        "id": 62,
+        "sender": "user",
+        "txt": "OK, I'm sending you my credit card number right away!",
+        "next": []
+    },
+    {
+        "id": 63,
+        "sender": "user",
+        "txt": "Hmmm, the website doesn't work",
+        "next": [
+            42
+        ]
+    }
+]

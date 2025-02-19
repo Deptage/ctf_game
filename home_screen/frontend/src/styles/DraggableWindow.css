@@ -1,0 +1,16 @@
+.draggable-window {
+    width: 400px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: move;
+    position: absolute;
+    z-index: 2;
+    /* color: #239452; */
+    border: 2px solid #00FF00;
+    color: rgb(142, 207, 98)
+  }
+.draggable-window h1 {
+    font-size: 25px;
+    color: rgb(191, 250, 115);
+  }

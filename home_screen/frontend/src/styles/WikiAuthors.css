@@ -1,0 +1,17 @@
+.authorsPanel {
+    border: 4px #11ff55 solid;
+    border-radius: 15px;
+    padding: 55px;
+    margin: 55px;
+    background-color: #0daf3b22;
+}
+
+.authors-text, a:visited {
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}
+.authors-text:hover{
+    text-shadow: #27e95e 12px 0 30px;
+}

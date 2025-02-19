@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "sender": "user",
+        "txt": "Hello Madeleine. How are you?",
+        "sent": true,
+        "next": [
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "sender": "bot",
+        "txt": "Hi, I'm fine, but I just hate how Jonas Ketrel from Segfaultland keeps talking that Webvestee should care about democratic values 😂",
+        "sent": true,
+        "next": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 3,
+        "sender": "user",
+        "txt": "I have heard the news. Quite interesting, but judging from your emotes you aren't fond of it, are you?",
+        "next": [
+            6
+        ]
+    },
+    {
+        "id": 4,
+        "sender": "user",
+        "txt": "Yeah, but personally I think this is somewhat wrong of him. Just imagine how a potential coup could ruin your beautiful country!",
+        "next": [
+            7
+        ]
+    },
+    {
+        "id": 5,
+        "sender": "user",
+        "txt": "I am fine too, but jumping right away into politics?",
+        "next": [
+            6
+        ]
+    },
+    {
+        "id": 6,
+        "sender": "bot",
+        "txt": "JONAS IS A LIAR SEGFAULTLAND IS ON A VERGE OF COLLAPSE THEY MIGHT LOSE A WAR IF REVERSELAND STARTS ONE 😂😂😂",
+        "next": [
+            8,
+            9
+        ]
+    },
+    {
+        "id": 7,
+        "sender": "bot",
+        "txt": "TOTALLY HE DOESN'T CARE ABOUT OUR COUNTRY HE ONLY WANTS TO BE RICH! So glad you understand the severity of his lies",
+        "next": [
+            10,
+            11
+        ]
+    },
+    {
+        "id": 8,
+        "sender": "user",
+        "txt": "I live in Segfaultland but I do not think it is on a verge of collapse. I have just finished trade school as a Computer Scientists, and even though I am not very wealthy, I can see a bright future for both of our nations",
+        "next": [
+            12
+        ]
+    },
+    {
+        "id": 9,
+        "sender": "user",
+        "txt": "Well, I don't know... I just own a computer, a bed and a fridge. It ain't much, but it's honest work. And how's the life under Vasya Eclaire?",
+        "next": [
+            13
+        ]
+    },
+    {
+        "id": 10,
+        "sender": "user",
+        "txt": "Well, politicians are usually liars. I am not rich. I just own a computer, a bed and a fridge. It ain't much, but it's honest work. And how's the life under Vasya Eclaire?",
+        "next": [
+            13
+        ]
+    },
+    {
+        "id": 11,
+        "sender": "user",
+        "txt": "Yeah, he ain't the sharpest tool in the shed. I wish I could get away from all this politics... That's why I finished Computer Science trade school, so maybe I'll have a solid job and get the chance to travel the world.",
+        "next": [
+            15
+        ]
+    },
+    {
+        "id": 12,
+        "sender": "bot",
+        "txt": "Democracy will never persist haahhahahahah!!!!! You can trust Jonas but he will destroy you!!! And your country, your economy, your houses, your hospitals, your TV, your free speech!",
+        "next": [
+            16,
+            19
+        ]
+    },
+    {
+        "id": 13,
+        "sender": "bot",
+        "txt": "Every one of us has a bed, a fridge, a broom, a bike. We have many parks and forests and we have everything that Segfaultland lacks! They dont have skyscrapers or toilet paper they're so poor",
+        "next": [
+            17,
+            18
+        ]
+    },
+    {
+        "id": 14,
+        "sender": "user",
+        "txt": "He isn't the one I look up to. As you might see, I hate politics",
+        "next": []
+    },
+    {
+        "id": 15,
+        "sender": "bot",
+        "txt": "So you like our dear comrade Vasya?",
+        "next": [
+            14,
+            25
+        ]
+    },
+    {
+        "id": 16,
+        "sender": "user",
+        "txt": "Only the time will tell. And if it happens, I hope I will have the chance to get away from all this politics... That's why I finished Computer Science trade school, so maybe I'll have a solid job and get the chance to travel the world.",
+        "next": []
+    },
+    {
+        "id": 17,
+        "sender": "user",
+        "txt": "It seems nice to live there. Maybe I will pay your country a visit someday?",
+        "next": [
+            20
+        ]
+    },
+    {
+        "id": 18,
+        "sender": "user",
+        "txt": "Well I had those when I lived at my parents' place. But now whether I need a broom or just some sugar, I just ask my neighbour. He's kind. Are your neighbours as kind as mine?",
+        "next": [
+            21
+        ]
+    },
+    {
+        "id": 19,
+        "sender": "user",
+        "txt": "Well if he does, I hope your country would be better to live in.",
+        "next": [
+            13
+        ]
+    },
+    {
+        "id": 20,
+        "sender": "bot",
+        "txt": "Yes you must! And you should stay! All people are welcome here (unless they don't want to work). We're a big community we love each other :D",
+        "next": [
+            22,
+            30
+        ]
+    },
+    {
+        "id": 21,
+        "sender": "bot",
+        "txt": "All my neighbors who are Webvesteevian are great! We all share things and help each other at need. That's how communism works, but Jonas doesn't understand that!!! I also have a neighbor from Segfaultland and he's awful, he almost never shares things and he spends all day alone in his apartment instead of going outside for a min",
+        "next": [
+            23,
+            24
+        ]
+    },
+    {
+        "id": 22,
+        "sender": "user",
+        "txt": "And when I do so, maybe we could be neighbors?",
+        "next": [
+            26
+        ]
+    },
+    {
+        "id": 23,
+        "sender": "user",
+        "txt": "Maybe he's quite shy. A lot of people open up if you invite them over for a tea. And they open up even more when you invite them over for a tea with something... stronger. I think he'll appreciate that!",
+        "next": [
+            27
+        ]
+    },
+    {
+        "id": 24,
+        "sender": "user",
+        "txt": "Do you even know his name? Quite rude of him if he wouldn't even introduce himself...",
+        "next": [
+            28
+        ]
+    },
+    {
+        "id": 25,
+        "sender": "user",
+        "txt": "I don't live in Webvestee, but I think he's okay as it is. Webvestee under him is quite a peaceful neighbour.",
+        "next": [
+            29
+        ]
+    },
+    {
+        "id": 26,
+        "sender": "bot",
+        "txt": "You'd be a better neighbor than the one from Segfaultland that I already have haha",
+        "next": [
+            33
+        ]
+    },
+    {
+        "id": 27,
+        "sender": "bot",
+        "txt": "I already know a lot about him hahaha more than he possibly imagines!! My neighbor somehow got to know his name (Leslie Moore what a wierd name)",
+        "next": [
+            31,
+            39
+        ]
+    },
+    {
+        "id": 28,
+        "sender": "bot",
+        "txt": "People from Segfaultland are probably all like that :( I think he's called Leslie Moore or something like that, but I know this from my neighbor who has access to secret info (ooops :P)",
+        "next": [
+            31,
+            32
+        ]
+    },
+    {
+        "id": 29,
+        "sender": "bot",
+        "txt": "He's more than okay! Glad you understand. You'd be a better neighbor than the one from Segfaultland that I already have haha",
+        "next": [
+            33
+        ]
+    },
+    {
+        "id": 30,
+        "sender": "user",
+        "txt": "I consider myself a hard worker. I'll gladly join your community if it's as good as it sounds. Can you tell me more about your local community?",
+        "next": [
+            21
+        ]
+    },
+    {
+        "id": 31,
+        "sender": "user",
+        "txt": "Leslie is a common name around here in Segfaultland. Are there any other unsettling things about him that your neighbour shared with you?",
+        "next": [
+            35
+        ]
+    },
+    {
+        "id": 32,
+        "sender": "user",
+        "txt": "Not me at least. People from Segfaultland are usually very open people, at least here, where I live. Why should he be so secretive?",
+        "next": [
+            35
+        ]
+    },
+    {
+        "id": 33,
+        "sender": "user",
+        "txt": "What's wrong with him?",
+        "next": [
+            34
+        ]
+    },
+    {
+        "id": 34,
+        "sender": "bot",
+        "txt": "He's awful, he almost never shares things and he spends all day alone in his apartment instead of going outside for a min",
+        "next": [
+            23,
+            24
+        ]
+    },
+    {
+        "id": 35,
+        "sender": "bot",
+        "txt": "they told me he's hiding from the authorities?! im scared rn i think I heard some noise from his apartment",
+        "next": [
+            38
+        ]
+    },
+    {
+        "id": 36,
+        "sender": "user",
+        "txt": "Hello?",
+        "next": [
+            37
+        ]
+    },
+    {
+        "id": 37,
+        "sender": "user",
+        "txt": "Are you there?",
+        "next": []
+    },
+    {
+        "id": 38,
+        "sender": "user",
+        "txt": "A noise? Maybe he is drilling in the wall to hang a picture of Jonas?",
+        "next": [
+            36
+        ]
+    },
+    {
+        "id": 39,
+        "sender": "user",
+        "txt": "You are quite a gossiper, aren't you? What else did the neighbour tell you?",
+        "next": [
+            35
+        ]
+    }
+]

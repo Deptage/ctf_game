@@ -1,0 +1,44 @@
+# CTFGame
+
+## Prerequisites
+
+Before running the project, make sure you have the following requirements met:
+
+1. **Add Domains to `/etc/hosts`**  
+   Edit your `/etc/hosts` file to include the necessary domain mappings present in the hosts file from this repository.
+    
+
+2. **Install and Ensure `caddy` is in `PATH`**  
+   Caddy is required to run this project. Download and install it from the official source:
+   [Caddy Installation Guide](https://caddyserver.com/docs/install)
+
+   Ensure `caddy` is accessible from the terminal by running:
+   ```sh
+   caddy version
+   ```
+
+## How to Run
+
+Follow these steps to set up and run the project:
+
+1. **Clone the Repository**  
+   ```sh
+   git clone <repository-url>
+   ```
+
+2. **Navigate to Project Directory**  
+   ```sh
+   cd ctfgame/
+   ```
+
+3. **Make the Script Executable**  
+   ```sh
+   chmod +x run_all.sh
+   ```
+
+4. **Run the Script**  
+   ```sh
+   ./run_all.sh
+   ```
+Application will be accessible at http://home.ctfgame.pl/
+

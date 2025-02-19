@@ -1,0 +1,82 @@
+.loginContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+}
+.loginTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.textForm {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.loginButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="text"], input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #1f538b;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+    width: 80px;
+    text-align: right;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.errorInput{
+    border-color: red;
+}
+.error{
+    color:red;
+}
+.registerText{
+    color: blue;
+    margin-top:0px;
+    cursor: pointer;
+}
+.exists-warning{
+    color:red;
+    text-align: left;
+    white-space: nowrap;
+}

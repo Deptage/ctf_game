@@ -1,0 +1,56 @@
+version: '3.8'
+networks:
+  home-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/16
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: inthehistoryofforevertherehasneverbeenamorecomplexpostgresqlpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      #- ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      home-network:
+        ipv4_address: 10.10.0.2
+
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock # for running other containers
+      - type: bind
+        source: ../aqua_messenger
+        target: /aqua_messenger
+      - type: bind
+        source: ../bank_page
+        target: /bank_page
+      - type: bind
+        source: ../company_page
+        target: /company_page
+      - type: bind
+        source: ../forum
+        target: /forum
+    ports:
+      - "8080:8080"
+      
+    networks:
+      home-network:
+        ipv4_address: 10.10.0.3
+
+
+
+    
+volumes:
+  pgdata:
+  

@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Insecure Direct Object Reference (IDOR)",
+      "content": "A website is vulnerable to Insecure Direct Object Reference (IDOR) when it has subpages that explicitly refer to some ID in the database.\n\nExample:\n\nhttp://example.com/user/12345\n\nIf the system is not properly secured, meaning there is no well-implemented access control, any user may access the content linked by the URL. This occurs because the system displays data before checking whether the user had permission to do so. Sometimes, the ID may also be present in the body of a POST request.\n\nA simple exploitation of this vulnerability involves brute-forcing all possible IDs in the URL using a third-party tool like \"Burp Suite.\""
+    },
+    {
+      "name": "Race Condition",
+      "content": "A race condition occurs when multiple threads or processes attempt to access a resource at the same time, causing anomalies in the operation of an information system. Notably, this is a concern when commands for reading and writing large amounts of data are executed in very short intervals. In such cases, the danger arises from the interleaving of operations carried out by different processes. This way, a write operation may depend on data from an outdated read."
+    },
+    {
+      "name": "Cross-Site Scripting (XSS)",
+      "content": "Cross-Site Scripting is a vulnerability that allows the execution of code, usually in JavaScript, in another user's browser. This occurs when user-supplied data is not properly sanitized before being executed in the browser. This method can be used by a malicious user to steal the victim's session token, allowing the attacker to authenticate as the victim without knowing their login or password."
+    },
+    {
+      "name": "SQL Injection",
+      "content": "SQL Injection is an attack that exploits SQL scripts, often in input fields that are not correctly processed by the system. The system is particularly vulnerable to this type of attack when user input is not properly handled—for example, when the system does not correctly handle apostrophes. This vulnerability is extremely dangerous to the system, its data, and its integrity. In addition to unauthorized data retrieval, an attacker can also destroy data (using SQL commands like DROP or DELETE), which can lead to significant losses for the system.\n\nMoreover, SQL Injection is not limited to data manipulation; it can also serve as an indirect method for conducting a DoS attack. SQL Injection is one of the most dangerous attacks according to OWASP. Despite the high risk, there are many ways to defend against this attack. One of the simplest and most recommended methods, offered by most database management systems, is parameterized queries. Additionally, appropriate data validation or the use of functions available in various libraries can prepare user data in a way that protects the system from SQL Injection."
+    },
+    {
+      "name": "Command Injection",
+      "content": "Command injection occurs when an application user can exploit a specially crafted request (e.g., HTTP) to execute code on the server side. This happens when the server-side functionality involves executing a shell command, which includes user-controlled data. The attacker can use this vulnerability to read or modify files on the system or even gain full remote access to the server through the reverse shell mechanism."
+    },
+    {
+      "name": "Cross-Site Request Forgery (CSRF)",
+      "content": "Cross-Site Request Forgery, like XSS, allows for attacks on other users of a vulnerable application. These vulnerabilities often occur together, as whenever there is an XSS vulnerability, it is also possible to carry out a CSRF attack. CSRF involves using another user's browser to execute an HTTP request to a specific network resource. Such a request contains the victim's credentials, which means it can be directed to services that may be restricted to other users. For example, if the victim's system is located in a corporate network that also hosts an HTTP server, the attacker could use the CSRF vulnerability to communicate with that server, even if it is not publicly accessible. Another example is when the victim has administrator privileges in a given service. In this situation, the attacker could also gain access to resources intended only for administrators."
+    },
+    {
+      "name": "Cookie Tampering",
+      "content": "Cookie tampering occurs when the content of a cookie stored by the browser is manipulated. In principle, cookies are small files used by web application developers to store information about a user or to monitor their activity on the site. Sometimes, these contain sensitive data, such as a session token or a set of permissions. Poor cookie management by application developers leads to easy-to-exploit security gaps in the system."
+    }
+  ]

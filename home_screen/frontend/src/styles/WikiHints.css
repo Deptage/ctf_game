@@ -1,0 +1,14 @@
+.hintPanels {
+    border: 4px #11ff55 solid;
+    border-radius: 15px;
+    padding: 55px;
+    margin: 55px;
+    background-color: #0daf3b22;
+}
+
+.hints-text {
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}

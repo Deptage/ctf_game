@@ -1,0 +1,46 @@
+
+.hintgroup-name{
+    
+    text-decoration: solid;
+    font-size: 22px;
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+}
+.hint-item{
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid #11ff55;
+    background-color: #11ff5413;
+}
+.hint-name{
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+}
+
+.hint-content{
+    color: #11ff55;
+    text-shadow: #0daf3b 3px 0 30px;
+    white-space: pre-wrap;
+}
+
+.hint-warning > p{
+    color: #11ff55;
+    font-size: 20px;
+    text-shadow: yellow 2px 0 20px;
+    text-decoration: underline;
+}
+
+.confirm-button, .hint-reveal-button, .cancel-button
+{
+    background-color: #11ff5443;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+}
+.confirm-button:hover, .hint-reveal-button:hover, .cancel-button:hover{
+    background-color: #11ff5469;
+}

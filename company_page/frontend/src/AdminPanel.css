@@ -1,0 +1,22 @@
+.adm{
+    display: flex;
+    flex-direction: column;
+}
+.admform{
+    display: flex;
+    flex-direction:column;
+    max-width: 60%;
+    align-items: center;
+    align-self: center;
+} 
+
+.admform > input{
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.admtitle{
+    padding:20px;
+    margin:50px;
+}

