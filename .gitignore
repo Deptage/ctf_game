@@ -38,4 +38,5 @@ company_page/.env
 forum/.env
 home_screen/.env
 template_webserver/.env
+caddy/caddy_data
 .vs
