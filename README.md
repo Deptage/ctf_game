@@ -19,10 +19,6 @@
 
 ![image](https://github.com/user-attachments/assets/abaabf00-ee07-4b54-a0d9-1d89f61da23b)
 
-### Forum
-
-![image](https://github.com/user-attachments/assets/cb3e1852-eebe-446e-ad85-d4f80bb24618)
-
 ### Company
 
 ![image](https://github.com/user-attachments/assets/18725b30-dec2-4758-84b0-6fe25699fc0d)
@@ -34,6 +30,10 @@
 ### Login screen
 
 ![image](https://github.com/user-attachments/assets/526f1367-4fc0-475d-9da4-f27314c6fadf)
+
+### Forum
+
+![image](https://github.com/user-attachments/assets/cb3e1852-eebe-446e-ad85-d4f80bb24618)
 
 
 
